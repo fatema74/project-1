@@ -3,13 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
 nav{
   display: flex;
 }
  nav > ul{
-  text-decoration: none;
-  display: flex;
+  display: flex; 
 }
-a{
-  list-style: none;
+nav > ul > li{
+  list-style: none; 
+  margin-right: 50px;
+}
+nav > ul > li> a{
+  text-decoration: none;
+}
+.nave-title{
+  color: #181818;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.span{
+  color: #fd6e0a;
+}
+.btn{
+  background-color: #fd6e0a;
 }
