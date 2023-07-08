@@ -11,6 +11,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
  nav > ul{
   display: flex;
@@ -23,6 +24,7 @@ nav > ul > li{
 nav > ul > li> a{
   text-decoration: none;
 }
+/* heade + banner area css */
 .nave-title{
   color: #181818;
   font-size: 45px;
@@ -40,4 +42,36 @@ nav > ul > li> a{
   font-weight: 700;
   font-size: 20px;
   padding: 15px 35px;
+}
+.header{
+  background-color: #fff8f3;
+  background-image: url(../img/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner, 
+.profie{
+  height: 500px;
+}
+.banner-contant{
+  max-width: 500px;
+}
+.banner-creti{
+  font-size: 45px;
+  color: #474744;
+  margin-bottom: 0;
+}
+.banner-title{
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.banner-conten{
+  margin-bottom: 20px;
 }
