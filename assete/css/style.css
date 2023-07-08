@@ -79,7 +79,11 @@ nav > ul > li> a{
 .banner-conten{
   margin-bottom: 20px;
 }
-
+/* main section area */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* about area css */
 .about{
   padding: 130px;
@@ -94,10 +98,33 @@ nav > ul > li> a{
   font-size: 35px;
   font-weight: 700;
   text-transform: capitalize;
-  padding-bottom: 20px;
 }
 .section-des{
   color: #757575;
   text-align: center;
   font-size: 18px;
+  padding: 20px 0;
 }
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.about-inf{
+  text-align: center;
+}
+.info-title{
+  padding-bottom: 10px;
+}
+.info-des{
+
+}
+.what-do{
+  padding: 30px 150px;
+}
+/* section area start */
+.skil{
+
+}
+.skil-title
+.skil-des
