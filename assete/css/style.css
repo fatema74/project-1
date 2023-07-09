@@ -84,6 +84,9 @@ main{
   max-width: 1140px;
   margin: 0 auto;
 }
+main section{
+  margin-top: 130px;
+}
 /* about area css */
 .about{
   padding: 130px;
@@ -119,12 +122,63 @@ main{
 .info-des{
 
 }
+/* section area start */
 .what-do{
   padding: 30px 150px;
 }
-/* section area start */
+.skil-conseption{
+  display: flex;
+  gap: 24px;
+}
 .skil{
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skil-title{
+ text-transform: capitalize;
+ padding: 20px 0;
+}
+.skil-des{
+ color: #757575;
+}
+/* resume section css */
+.resume-container{
+  display: flex;
+  gap: 50px;
+}
+.resume-title{
+  color: #474744;
+  font-size: 30px;
+  font-family: Open Sans;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.resume-column{
 
 }
-.skil-title
-.skil-des
+
+.resume-item{
+
+}
+.resume-item-title{
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 20px 0;
+}
+.resume-item-ins{
+  color: #757575;
+  text-transform: capitalize;
+}
+.resume-item-des{
+  color: #757575;
+    padding: 20px 0;
+}
+.downlod-cd{
+  text-align: center;
+  margin-top: 30px;
+}
